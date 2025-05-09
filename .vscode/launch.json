@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula05Repeticao",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula05Repeticao",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AV2",
+            "request": "launch",
+            "mainClass": "com.mycompany.AV2",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Aula03Operadores",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula03Operadores",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Aula01Variaveis",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula01Variaveis",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Launch App",
             "request": "launch",
             "cwd": "${workspaceFolder}",
