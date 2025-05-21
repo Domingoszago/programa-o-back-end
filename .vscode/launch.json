@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula07Estruturas",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula07Estruturas",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Ex03",
             "request": "launch",
             "mainClass": "com.mycompany.Ex03",
