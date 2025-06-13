@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Avaliacao",
+            "request": "launch",
+            "mainClass": "com.mycompany.Avaliacao",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Avaliação",
+            "request": "launch",
+            "mainClass": "com.mycompany.Avaliação",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Aula07Estruturas",
             "request": "launch",
             "mainClass": "com.mycompany.Aula07Estruturas",
