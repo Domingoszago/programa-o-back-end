@@ -1,32 +1,41 @@
 package com.mycompany.poo.aula10;
 
-import javax.print.attribute.standard.PrinterStateReasons;
-
 public class App {
     public static void main(String[] args) {
-        pessoa pessoa = new Pessoa();
-        pessoa.nome = 'Iury';
-        pessoa.idade = 26;
-        pessoa.salario = 1.000;
-        // Pessoa.salario = 1.000; atributos privado não são visiveis 
-        
-        //Instalação classes que estão declaradas em outros arquivos
-        Pessoa pessoa1 = new Pessoa()
-        Pessoa pessoa2 = new Pessoal 
+        Pessoa pessoa = new Pessoa();
+        pessoa.nome = "Adriana";
+        pessoa.idade = 16;
+        // pessoa.salario= 1000; atributos privados não são visíveis
 
-        pessoal1.nome = "Adriana";
-        pessoal.idade = "17"
-        pessoa1.altura = "1.64"
+        Pessoa pessoa1 = new Pessoa();
+        Pessoa pessoa2 = new Pessoa();
 
-        pessoa2.nome = "Iury";
-        pessoa2 = "17"
-        pessoa2.altura = "1.84"
+        pessoa1.nome = "Iury";
+        pessoa1.idade = 17;
+        pessoa1.altura = 1.84;
 
-        System.out.println("x:\"--- Dados da pessoa ---");
+        pessoa2.nome = "Adriana";
+        pessoa2.idade = 16;
+        pessoa1.altura = 1.64;
+
+        pessoa1.exibirDados();
+        pessoa2.exibirDados();
+
+        pessoa1.atribuirSalario(2000.0,240);
+        pessoa2.atribuirSalario(3500);
+
+        /*System.out.println("--- Dados da pessoa---");
         System.out.println("Nome: " + pessoa1.nome);
         System.out.println("Idade: " + pessoa1.idade);
-        System.out.println("Altura (m): " + pessoa1.altura);
-        
-   }
-    
+        System.out.println("Altura (m):" + pessoa1.altura);
+
+        System.out.println("--- Dados da pessoa---");
+        System.out.println("Nome: " + pessoa2.nome);
+        System.out.println("Idade: " + pessoa2.idade);
+        System.out.println("Altura (m):" + pessoa2.altura);*/
+
+
+    }
+
 }
+
