@@ -4,6 +4,13 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "com.mycompany.poo.avaliacao.App",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "com.mycompany.poo.aula10.App",
             "projectName": "my-app"
         },
